@@ -1,0 +1,60 @@
+.css-1tqrhto >.ps-menu-button:hover {
+    border-radius: 20px;
+    background-color: #ADD8E6 !important;
+}
+.css-1t8x7v1 >.ps-menu-button{
+    margin-left: 20px;
+    width: 250px;
+    display: flex;
+
+    
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.css-12w9als{
+    display: flex;
+    gap: 10px;
+    font-size: 22px;
+}
+
+.css-wx7wi4{
+    padding-left: 10px;
+}
+
+.css-vj11vy.ps-menu-root{
+    margin: 10px;
+    margin-top: 40px;
+}
+
+/* Default sidebar (desktop view) */
+.sidebar {
+    width: 250px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  /* Collapsed sidebar */
+  .sidebar.collapsed {
+    width: 80px;
+  }
+  
+  /* Hide text when collapsed */
+  .sidebar.collapsed .menu-text {
+    display: none;
+  }
+  
+  /* Responsive behavior for small screens */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 80px;
+    }
+    
+    .sidebar.expanded {
+      width: 250px;
+    }
+  }
+  
+
